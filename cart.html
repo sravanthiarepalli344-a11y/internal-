@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h2>🛒 My Store</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart-section">
+
+        <h1>My Shopping Cart</h1>
+
+        <div id="cart-items">
+            <!-- Products will display here -->
+        </div>
+
+        <div class="cart-total">
+            <h2>Total: ₹<span id="total-price">0</span></h2>
+        </div>
+
+        <div class="cart-buttons">
+
+            <a href="index.html">
+                <button>Continue Shopping</button>
+            </a>
+
+            <button onclick="clearCart()">Clear Cart</button>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Store | All Rights Reserved</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
